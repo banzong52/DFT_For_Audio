@@ -9,6 +9,9 @@
 | `DFT.ipynb` | 主程序：余弦低通滤波降噪 + FFT 频域加密/解密，批量处理 |
 | `Draw.ipynb` | DFT 时频域对比演示 |
 
+| `data/noise.wav` | 含高频噪声的测试音频 |
+| `data/song.wav` | 歌曲测试音频 |
+
 ## 功能
 
 ### 1. 音频降噪

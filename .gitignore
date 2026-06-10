@@ -4,13 +4,16 @@
 # Output
 output/
 
-# Audio data (keep folder, not files)
+# Audio data (only keep test samples)
 data/*.wav
 data/*.pkf
+!data/noise.wav
+!data/song.wav
 
-# Generated WAV output
-*.wav
-!data/.gitkeep
+# Generated WAV output (root level)
+/denoised.wav
+/encrypted.wav
+/decrypted.wav
 
 # Python
 __pycache__/
