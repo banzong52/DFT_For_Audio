@@ -1,0 +1,28 @@
+# IDE
+.idea/
+
+# Output
+output/
+
+# Audio data (keep folder, not files)
+data/*.wav
+data/*.pkf
+
+# Generated WAV output
+*.wav
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Generated figures
+*.pdf
+*.png
+
+# Test notebooks
+test_denoise.ipynb
+
+# Misc
+claude.txt
