@@ -15,13 +15,7 @@
 - 余弦锥形过渡带低通滤波器，避免吉布斯振铃
 - 传递函数：
 
-$$
-H(f)=\begin{cases}
-1, & f \le f_c \\[6pt]
-\displaystyle\frac{1}{2}\left[1+\cos\!\left(\pi\,\frac{f-f_c}{W}\right)\right], & f_c < f \le f_c+W \\[6pt]
-0, & f > f_c+W
-\end{cases}
-$$
+$$H(f)=\begin{cases}1, & f \le f_c \\ \frac{1}{2}\left[1+\cos\left(\pi\frac{f-f_c}{W}\right)\right], & f_c \lt f \le f_c+W \\ 0, & f \gt f_c+W\end{cases}$$
 
 ### 2. 频域加密/解密
 - 正频率复数置换 + 相位旋转
